@@ -261,7 +261,7 @@ const AppProvider: FC<{ children: ReactNode }> = ({ children }) => {
             setBounty(userData.user.bounty);
             setStackcoin(userData.user.stackcoin);
             setMyOrder(userData.user.myOrder);
-            fetchAllUsersQuestsandBounty();
+            await fetchAllUsersQuestsandBounty();
 
             return userData;
         } catch (error: any) {
