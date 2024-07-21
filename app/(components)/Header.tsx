@@ -130,7 +130,6 @@ const Header = () => {
                 const userId = session?.user?.id;
                 const user = await findUserById(userId);
                 setAuth(true);
-                console.log(user);
             } else {
                 setAuth(false);
             }
