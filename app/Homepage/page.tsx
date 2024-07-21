@@ -13,6 +13,7 @@ const Homepage = () => {
     const [localTimezone, setLocalTimezone] = useState<string>('');
     const [isoCurrentTime, setIsoCurrentTime] = useState<string>('');
     const [showScrollToTop, setShowScrollToTop] = useState<boolean>(false);
+    const [detailsOpen, setDetailsOpen] = useState<boolean>(false);
 
     const getStatus = (startDate: string, endDate: string) => {
         const now = new Date();
@@ -91,6 +92,8 @@ const Homepage = () => {
 
         window.addEventListener('scroll', handleScroll);
 
+        setDetailsOpen(true);
+
         return () => {
             clearInterval(interval);
             window.removeEventListener('scroll', handleScroll);
@@ -106,7 +109,7 @@ const Homepage = () => {
             </div>
             <div className='max-w-6xl flex flex-col items-center mt-10 gap-y-9 mx-5 sm:mx-8 md:mx-9 xl:mx-auto pt-5 pb-14 sm:px-20 lg:px-0'>
                 <div className='flex flex-col space-y-5 w-full mb-10'>
-                    <details className='group h-auto lg:h-full w-full p-5 bg-[#f5f5f5] dark:bg-gray-800 rounded-2xl cursor-pointer' tabIndex={1} open={true}>
+                    <details className='group h-auto lg:h-full w-full p-5 bg-[#f5f5f5] dark:bg-gray-800 rounded-2xl cursor-pointer' tabIndex={1} open={detailsOpen}>
                         <summary className='list-none relative flex w-full items-center'>
                             <div className='font-semibold text-lg'>📢 New: Monthly Happenings Calendar</div>
                             <img src='min.svg' className='hidden group-open:block ml-auto h-5 w-5'/>
