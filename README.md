@@ -56,6 +56,9 @@ As part of the StackUp Hackathon, I've implemented key features to enhance the S
 
  **8.** **Adding a Store page for users to redeem Stackcoin.**
  
+![store](https://github.com/user-attachments/assets/258ed0a2-5264-4434-ad60-894b28f24618)
+
+
  Here, users can exchange Stackcoin they have earned (which can be obtained from Discord as quiz rewards or from quests that offer Stackcoin as prizes). The Store can contain StackUp merchandise or any items that users find   interesting.
 
 For testing purpose you can login with user **8dfz62t4m@mozmail.com** and password **User#1234** or you can test signup with your own account (dont worry password is encrypted and stored in database).
