@@ -61,6 +61,7 @@ const Account = () => {
         updateQuestsToDatabase,
         updateBountyToDatabase,
         updateStackcoinToDatabase,
+        fetchAllUsersQuestsandBounty,
     } = useAppContext();
     const theme = useTheme();
 
@@ -175,6 +176,7 @@ const Account = () => {
             await updateStackcoinToDatabase(userId, values.stackcoin as number, 'set');
     
             await findUserById(userId);
+            await fetchAllUsersQuestsandBounty();
 
             setLoadingUpdateAlertMessage(idMessage, 'Profile updated successfully', 'success');
 
