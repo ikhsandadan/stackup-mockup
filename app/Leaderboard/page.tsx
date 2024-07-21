@@ -205,7 +205,7 @@ const Leaderboard = () => {
                             <li>Each completed bounty is worth 3 points.</li>
                         </ul>
                         <p className='mt-2'>
-                            The scores from quests and bounties are summed up to determine the user's total score and their ranking on the leaderboard.
+                            The scores from quests and bounties are summed up to determine the user&apos;s total score and their ranking on the leaderboard.
                         </p>
                     </div>
                 </div>

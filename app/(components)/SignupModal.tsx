@@ -278,7 +278,7 @@ const SignupModal: React.FC<SignupModalProps> = ({ openSignupModal, handleSignup
                             </div>
                             <div className='flex flex-col items-center gap-1'>
                                 <h1 className='text-2xl leading-9 font-bold text-center'>Create your account</h1>
-                                <h3 className='text-gray-500 leading-6 text-center'>Let's init your developer journey.</h3>
+                                <h3 className='text-gray-500 leading-6 text-center'>Let&apos;s init your developer journey.</h3>
                             </div>
                             <form className='space-y-4 md:space-y-6' onSubmit={handleSignup}>
                                 <div className='space-y-1'>
@@ -378,7 +378,7 @@ const SignupModal: React.FC<SignupModalProps> = ({ openSignupModal, handleSignup
                                                 onChange={handleInputChange}
                                             />
                                             <label className='ml-3 text-sm text-gray-500 dark:text-gray-400'>
-                                                I've read and agree to StackUp platform's <a href="https://stackup.dev/terms" className="text-gray-900 dark:text-gray-400 font-medium">Terms of Service</a> and <a href="https://stackup.dev/privacy" className="text-gray-900 dark:text-gray-400 font-medium">Privacy Policy</a>.
+                                                I&apos;ve read and agree to StackUp platform&apos;s <a href="https://stackup.dev/terms" className="text-gray-900 dark:text-gray-400 font-medium">Terms of Service</a> and <a href="https://stackup.dev/privacy" className="text-gray-900 dark:text-gray-400 font-medium">Privacy Policy</a>.
                                             </label>
                                         </div>
                                         <p className='input-msg text-sm first-letter:capitalize text-red-700'>{errors.agreement}</p>
@@ -395,7 +395,7 @@ const SignupModal: React.FC<SignupModalProps> = ({ openSignupModal, handleSignup
                                                 onChange={handleInputChange}
                                             />
                                             <label className='ml-3 text-sm text-gray-500 dark:text-gray-400'>
-                                                I would like emails on StackUp's product and content updates.
+                                                I would like emails on StackUp&apos;s product and content updates.
                                             </label>
                                         </div>
                                     </div>

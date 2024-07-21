@@ -137,7 +137,7 @@ const LoginModal: React.FC<LoginModalProps> = ({ openLoginModal, handleLoginClos
                                     >
                                         Log In
                                     </button>
-                                    <p className='text-sm font-light text-gray-500 dark:text-gray-300 text-center'>Don't have an account? <a href="#" onClick={handleSignupOpen} className='font-medium text-gray-900 dark:text-white hover:underline'>Sign up</a></p>
+                                    <p className='text-sm font-light text-gray-500 dark:text-gray-300 text-center'>Don&apos;t have an account? <a href="#" onClick={handleSignupOpen} className='font-medium text-gray-900 dark:text-white hover:underline'>Sign up</a></p>
                                 </div>
                             </form>
                         </div>
