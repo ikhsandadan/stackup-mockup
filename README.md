@@ -3,6 +3,7 @@
 # Project: StackUp Website Enhancement
 
 [StackUp Mockup App](https://stackup-mockup.vercel.app/)
+
 As part of the StackUp Hackathon, I've implemented key features to enhance the StackUp website's functionality and user experience:
 
  **1.** **Dark Theme: Improves visual comfort with switchable light/dark modes, reducing eye strain and enhancing readability.**
