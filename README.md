@@ -43,8 +43,8 @@ As part of the StackUp Hackathon, I've implemented key features to enhance the S
   
    Scoring System:
   
-   3. 1 point per minimum approved quest.
-   4. 3 points per minimum approved bounty.
+   1. 1 point per minimum approved quest.
+   2. 3 points per minimum approved bounty.
    And i add them all up.
 
 
